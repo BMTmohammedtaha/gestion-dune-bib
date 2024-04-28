@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #c2023c;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ffc107;
+}
+
+li {
+    list-style: none;
+}
+
+
+footer {
+    bottom: 0;
+    margin-top: 100px;
+    background-color: #141118;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.app {
+    padding: 50px;
+    height: 100vh;
+}
+
+button,
+input[type="submit"] {
+    background: #6d2160;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+
+input[type="checkbox"] {
+    height: 15px;
+    width: 30px;
+  }
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 50px auto;
+}
+
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    padding: 8px;
+    text-align: left;
+    background-color: #410320;
+    color: white;
+    font-weight: bold;
+    height: 30px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.sub_nav {
+    text-align: right;
+}
+
+
+form {
+    margin: 40px;
+    width: 50%;
+
+}
+
+
+form label {
+    font-weight: 500;
+}
+
+form input {
+    margin: 5px 0;
+    padding: 0 5px;
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #555;
+}
+
+
+form select {
+    margin: 10px 0;
+    padding: 0 5px;
+    border-radius: 5px;
+    border: 1px solid #555;
+    min-height: 30px;
+    width: 100%;
+}
